@@ -11,7 +11,7 @@ from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 
 sys.path.append(os.path.join(os.path.dirname(__file__), "..", "src"))
-from preprocessor import TextPreprocessor
+from text_preprocessor import TextPreprocessor
 
 BASE_DIR = os.path.join(os.path.dirname(__file__), "..")
 MODELS_DIR = os.path.join(BASE_DIR, "models")
